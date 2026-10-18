@@ -1,0 +1,53 @@
+name: farmdirect
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: farmdirect
+      POSTGRES_PASSWORD: farmdirect
+      POSTGRES_DB: farmdirect
+    ports: ["127.0.0.1:5432:5432"]
+    volumes: ["postgres-data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U farmdirect"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  redis:
+    image: redis:7-alpine
+    ports: ["127.0.0.1:6379:6379"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+  api:
+    build: ./backend
+    environment:
+      APP_ENV: development
+      DATABASE_URL: postgresql+psycopg://farmdirect:farmdirect@postgres:5432/farmdirect
+      REDIS_URL: redis://redis:6379/0
+      PAYMENT_PROVIDER: mock
+      CORS_ORIGINS: http://localhost:3000
+    ports: ["127.0.0.1:8000:8000"]
+    command: sh -c "alembic upgrade head && python -m app.cli seed && exec uvicorn app.main:app --host 0.0.0.0 --port 8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=3).read()"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+  reservations:
+    build: ./backend
+    environment:
+      APP_ENV: development
+      DATABASE_URL: postgresql+psycopg://farmdirect:farmdirect@postgres:5432/farmdirect
+      PAYMENT_PROVIDER: mock
+    # Local worker only. Production uses Railway's every-five-minutes cron config.
+    command: sh -c "while true; do python -m app.cli expire-reservations; sleep 60; done"
+    depends_on:
+      api: { condition: service_healthy }
+volumes:
+  postgres-data:

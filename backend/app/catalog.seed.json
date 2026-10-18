@@ -1,0 +1,282 @@
+[
+  {
+    "id": "a15e8433-d8fb-5b97-b926-deb14d66da08",
+    "slug": "everyday-whole-w320",
+    "name": "Everyday Whole Cashews",
+    "subtitle": "The everyday essential",
+    "description": "Creamy, naturally sweet whole cashews. A versatile pick for your snack jar, morning bowl, and favourite recipes.",
+    "category": "whole-kernels",
+    "grade": "W-320",
+    "image": "/images/cashews-hero.png",
+    "accent": "green",
+    "ingredients": "Cashews",
+    "variants": [
+      {
+        "id": "46b8d6eb-720a-5e5c-a1e0-14a0d949f274",
+        "sku": "FD-EVERYDAY-WHOLE-W320-250",
+        "weight_grams": 250,
+        "price_paise": 32900,
+        "available_stock": 40
+      },
+      {
+        "id": "8de694b3-5632-5be0-921a-99d565df5a32",
+        "sku": "FD-EVERYDAY-WHOLE-W320-500",
+        "weight_grams": 500,
+        "price_paise": 59900,
+        "available_stock": 40
+      },
+      {
+        "id": "e336f18b-07c0-525b-a8b0-0cf4f6c02cde",
+        "sku": "FD-EVERYDAY-WHOLE-W320-1000",
+        "weight_grams": 1000,
+        "price_paise": 109900,
+        "available_stock": 40
+      }
+    ]
+  },
+  {
+    "id": "ae0158cf-b3fd-584c-979e-3169b254c52a",
+    "slug": "premium-whole-w240",
+    "name": "Premium Whole Cashews",
+    "subtitle": "A little bigger. A little more indulgent.",
+    "description": "Generously sized whole kernels with a satisfying bite. Serve on a grazing board or enjoy a handful straight from the pack.",
+    "category": "whole-kernels",
+    "grade": "W-240",
+    "image": "/images/cashews-hero.png",
+    "accent": "ochre",
+    "ingredients": "Cashews",
+    "variants": [
+      {
+        "id": "31d37dfc-b564-5264-b450-57bba8eebf5e",
+        "sku": "FD-PREMIUM-WHOLE-W240-250",
+        "weight_grams": 250,
+        "price_paise": 39900,
+        "available_stock": 40
+      },
+      {
+        "id": "2c6202bb-8e5a-5179-8dfe-f47cf36d253d",
+        "sku": "FD-PREMIUM-WHOLE-W240-500",
+        "weight_grams": 500,
+        "price_paise": 74900,
+        "available_stock": 40
+      },
+      {
+        "id": "8f4ecee0-6356-508d-8bfb-d047487b05fa",
+        "sku": "FD-PREMIUM-WHOLE-W240-1000",
+        "weight_grams": 1000,
+        "price_paise": 139900,
+        "available_stock": 40
+      }
+    ]
+  },
+  {
+    "id": "d2bfe40a-3b4e-570e-838b-779a01915ebd",
+    "slug": "jumbo-whole-w180",
+    "name": "Jumbo Whole Cashews",
+    "subtitle": "Big on size. Full of character.",
+    "description": "Our largest whole-kernel selection. Made for thoughtful gifts, special occasions, and anyone who loves a substantial crunch.",
+    "category": "whole-kernels",
+    "grade": "W-180",
+    "image": "/images/cashews-hero.png",
+    "accent": "clay",
+    "ingredients": "Cashews",
+    "variants": [
+      {
+        "id": "da7fb38c-65e1-59c8-999d-f985b4d759e5",
+        "sku": "FD-JUMBO-WHOLE-W180-250",
+        "weight_grams": 250,
+        "price_paise": 49900,
+        "available_stock": 40
+      },
+      {
+        "id": "2f3ecac4-cb36-50a4-bae1-715a50064e74",
+        "sku": "FD-JUMBO-WHOLE-W180-500",
+        "weight_grams": 500,
+        "price_paise": 94900,
+        "available_stock": 40
+      },
+      {
+        "id": "a603d1e3-c4e8-5dee-ba6d-581413c3ea22",
+        "sku": "FD-JUMBO-WHOLE-W180-1000",
+        "weight_grams": 1000,
+        "price_paise": 179900,
+        "available_stock": 40
+      }
+    ]
+  },
+  {
+    "id": "064abaeb-a131-5b50-a1bb-65e04ec1146f",
+    "slug": "black-pepper-cashews",
+    "name": "Black Pepper Cashews",
+    "subtitle": "A bold, savoury little ritual",
+    "description": "Whole cashews roasted with a warming black-pepper seasoning. A savoury companion for a quiet evening or a table full of friends.",
+    "category": "flavoured-snacks",
+    "grade": null,
+    "image": "/images/cashews-hero.png",
+    "accent": "dark",
+    "ingredients": "Cashews, black pepper, rice bran oil, salt",
+    "variants": [
+      {
+        "id": "1518999c-348f-5aab-91f5-f35c224a455f",
+        "sku": "FD-BLACK-PEPPER-CASHEWS-250",
+        "weight_grams": 250,
+        "price_paise": 39900,
+        "available_stock": 40
+      },
+      {
+        "id": "2c73f059-29b7-538a-92a9-5ea7055074b9",
+        "sku": "FD-BLACK-PEPPER-CASHEWS-500",
+        "weight_grams": 500,
+        "price_paise": 74900,
+        "available_stock": 40
+      },
+      {
+        "id": "2e6128b7-4ce1-51f2-8bb4-e4d2d15a2b5b",
+        "sku": "FD-BLACK-PEPPER-CASHEWS-1000",
+        "weight_grams": 1000,
+        "price_paise": 139900,
+        "available_stock": 40
+      }
+    ]
+  },
+  {
+    "id": "7e4b196f-e486-5d8b-9428-b1314ae9af34",
+    "slug": "chilli-lime-cashews",
+    "name": "Chilli & Lime Cashews",
+    "subtitle": "Bright, tangy, just enough heat",
+    "description": "A lively blend of chilli and citrus over crunchy cashew kernels. Pair with your favourite drink or share around the table.",
+    "category": "flavoured-snacks",
+    "grade": null,
+    "image": "/images/cashews-hero.png",
+    "accent": "clay",
+    "ingredients": "Cashews, chilli, lime seasoning, rice bran oil, salt",
+    "variants": [
+      {
+        "id": "edd76502-8eaa-5474-9ca4-e177a6e7555e",
+        "sku": "FD-CHILLI-LIME-CASHEWS-250",
+        "weight_grams": 250,
+        "price_paise": 39900,
+        "available_stock": 40
+      },
+      {
+        "id": "c1e466dc-fd20-54c7-b37e-c42742516eeb",
+        "sku": "FD-CHILLI-LIME-CASHEWS-500",
+        "weight_grams": 500,
+        "price_paise": 74900,
+        "available_stock": 40
+      },
+      {
+        "id": "11c4f9c6-d5bc-5762-a518-e0ab299c65af",
+        "sku": "FD-CHILLI-LIME-CASHEWS-1000",
+        "weight_grams": 1000,
+        "price_paise": 139900,
+        "available_stock": 40
+      }
+    ]
+  },
+  {
+    "id": "4364cd7e-ae96-592b-bc8b-8c13749ae1e2",
+    "slug": "kitchen-cashew-splits",
+    "name": "Kitchen Cashew Splits",
+    "subtitle": "Small pieces. Endless possibilities.",
+    "description": "The same creamy cashew character in kitchen-friendly splits. Blend into gravies, fold into bakes, or toast for a finishing crunch.",
+    "category": "culinary-pieces",
+    "grade": "Splits",
+    "image": "/images/cashews-hero.png",
+    "accent": "sand",
+    "ingredients": "Cashew splits",
+    "variants": [
+      {
+        "id": "e6e14c00-7892-5018-b154-5c96d5220f27",
+        "sku": "FD-KITCHEN-CASHEW-SPLITS-250",
+        "weight_grams": 250,
+        "price_paise": 24900,
+        "available_stock": 40
+      },
+      {
+        "id": "e458e44a-a7b7-5e40-908e-aab7f3ce8b39",
+        "sku": "FD-KITCHEN-CASHEW-SPLITS-500",
+        "weight_grams": 500,
+        "price_paise": 45900,
+        "available_stock": 40
+      },
+      {
+        "id": "81805c01-275d-56eb-944b-83d4757a1903",
+        "sku": "FD-KITCHEN-CASHEW-SPLITS-1000",
+        "weight_grams": 1000,
+        "price_paise": 84900,
+        "available_stock": 40
+      }
+    ]
+  },
+  {
+    "id": "addbb1c6-96e4-5743-a212-3cd1827a5613",
+    "slug": "smooth-cashew-butter",
+    "name": "Smooth Cashew Butter",
+    "subtitle": "One ingredient. So many possibilities.",
+    "description": "Smoothly ground cashews for toast, dressings, porridge, and baking. Stir before use: natural oil separation is normal.",
+    "category": "cashew-butter",
+    "grade": null,
+    "image": "/images/cashews-hero.png",
+    "accent": "ochre",
+    "ingredients": "Cashews",
+    "variants": [
+      {
+        "id": "70875e27-a9cf-5d01-af39-7be3dc46a593",
+        "sku": "FD-SMOOTH-CASHEW-BUTTER-250",
+        "weight_grams": 250,
+        "price_paise": 44900,
+        "available_stock": 40
+      },
+      {
+        "id": "a806121e-8a16-5308-926e-9332a3c532db",
+        "sku": "FD-SMOOTH-CASHEW-BUTTER-500",
+        "weight_grams": 500,
+        "price_paise": 84900,
+        "available_stock": 40
+      },
+      {
+        "id": "0cd8a515-c491-5365-bec9-89595c977ea4",
+        "sku": "FD-SMOOTH-CASHEW-BUTTER-1000",
+        "weight_grams": 1000,
+        "price_paise": 159900,
+        "available_stock": 40
+      }
+    ]
+  },
+  {
+    "id": "06cdedee-4a43-5013-9a83-98e872add9e7",
+    "slug": "farmhouse-gift-hamper",
+    "name": "The Farmhouse Hamper",
+    "subtitle": "A thoughtful taste of the farm",
+    "description": "A gift collection of whole and seasoned cashews, presented for sharing. The selected weight is the total net food weight.",
+    "category": "festive-hampers",
+    "grade": null,
+    "image": "/images/cashews-hero.png",
+    "accent": "dark",
+    "ingredients": "Cashews, black pepper, chilli, lime seasoning, rice bran oil, salt",
+    "variants": [
+      {
+        "id": "d2f93e43-1077-5c9c-9d57-5131c2b1a17f",
+        "sku": "FD-FARMHOUSE-GIFT-HAMPER-250",
+        "weight_grams": 250,
+        "price_paise": 69900,
+        "available_stock": 40
+      },
+      {
+        "id": "df9fbd5c-2925-57bb-9ac8-332f50756a70",
+        "sku": "FD-FARMHOUSE-GIFT-HAMPER-500",
+        "weight_grams": 500,
+        "price_paise": 129900,
+        "available_stock": 40
+      },
+      {
+        "id": "4152da2b-838b-55dd-94fd-7d4fc4275451",
+        "sku": "FD-FARMHOUSE-GIFT-HAMPER-1000",
+        "weight_grams": 1000,
+        "price_paise": 239900,
+        "available_stock": 40
+      }
+    ]
+  }
+]
